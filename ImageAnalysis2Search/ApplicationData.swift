@@ -32,11 +32,11 @@ class ApplicationData {
 
     private init() {
 
-        listImages = []
+        listImages = []     
         filteredImages = []
 
         let list = [
-            "picture1","picture2","picture3"
+            "picture1","picture2","picture3", "picture4", "picture5", "picture6", "picture7","picture8"
         ]
 
         for name in list {

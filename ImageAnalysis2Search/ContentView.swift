@@ -41,7 +41,7 @@ struct ContentView: View {
 
         .searchable(text: $searchTerm, prompt: "Search image")
 
-        .onChange(of: searchTerm) { _, newValue in
+        .onChange(of: searchTerm) { oldValue, newValue in
 
             let search = newValue
                 .trimmingCharacters(in: .whitespacesAndNewlines)
